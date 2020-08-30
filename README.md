@@ -5,10 +5,10 @@
 There are two ways to run the container which will be illustrated below.
 
 ## Pre-requisites
-1. Installed [Docker](https://docs.docker.com/get-docker/)
+1. Installed [Docker desktop](https://docs.docker.com/get-docker/)
 
 ## Option 1 (Using docker compose)
-1. Make sure [Docker](https://docs.docker.com/get-docker/) is installed.
+1. Make sure [Docker desktop](https://docs.docker.com/get-docker/) is installed and started.
 2. Clone this repository into your local drive.
 3. Open Command Prompt/Terminal and `cd` into the repository.
 4. Type `docker-compose up -d`.
@@ -18,7 +18,7 @@ There are two ways to run the container which will be illustrated below.
 When you want to stop the services, run `docker-compose down`.
 
 ## Option 2 (Manual)
-1. Make sure [Docker](https://docs.docker.com/get-docker/) is installed.
+1. Make sure [Docker desktop](https://docs.docker.com/get-docker/) is installed and started.
 2. Run `docker network create mynetwork` to create a new network with name `mynetwork`.
 3. Run `docker run -d --network=mynetwork --name backend russellnus/backend` to download and run the custom backend image.
 4. Run `docker run -d --network=mynetwork --name frontend russellnus/frontend` to download and run the custom frontend image.

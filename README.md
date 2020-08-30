@@ -10,7 +10,7 @@ There are two ways to run the container which will be illustrated below.
 ## Option 1 (Using docker compose)
 1. Make sure [Docker](https://docs.docker.com/get-docker/) is installed.
 2. Clone this repository into your local drive.
-3. Open Command Prompt/Terminal and cd into the repository.
+3. Open Command Prompt/Terminal and `cd` into the repository.
 4. Type `docker-compose up -d`.
 5. Verify the containers are started by typing `docker ps`.
 6. On your browser, type [localhost](http://localhost) in the url to view the frontend html and [localhost/api](http://localhost/api) to view the backend response.

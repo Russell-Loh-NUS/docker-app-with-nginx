@@ -1,0 +1,15 @@
+version: '2.0'
+services:
+  proxy:
+    image: russellnus/proxy
+    container_name: proxy
+    ports:
+        - 80:80
+
+  frontend:
+    image: russellnus/frontend
+    container_name: frontend
+
+  backend:
+    image: russellnus/backend
+    container_name: backend

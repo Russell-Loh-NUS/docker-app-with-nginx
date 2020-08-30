@@ -9,7 +9,7 @@ There are two ways to run the container which will be illustrated below.
 
 ## Option 1 (Using docker compose)
 1. Make sure [Docker](https://docs.docker.com/get-docker/) is installed
-2. Pull this repository into your local drive
+2. Clone this repository into your local drive
 3. Open Command Prompt/Terminal and cd into the repository
 4. Type `docker-compose up -d`
 5. Verify the containers are started by typing `docker ps`.
